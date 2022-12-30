@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FileReadWrite</title>
+  <script src="./js/main/FileReadWrite.js"></script>
+  <script src="./js/main/FormSubmitter.js"></script>
+  <script src="./js/test/DeleteTest.js"></script>
+  <script src="./js/test/ReadTest.js"></script>
+  <script src="./js/test/WriteTest.js"></script>
+  <script src="./js/test/FileReadWriteTestRunner.js"></script>
+  <script src="./app.js"></script>
+
+</head>
+<body>
+  <form>
+    <label for="file-path">File Path:</label><br>
+    <input type="text" id="file-path" name="file-path"><br>
+    <label for="text-to-write">Text to Write:</label><br>
+    <textarea id="text-to-write" name="text-to-write"></textarea><br>
+    <input type="button" value="Submit" onclick="new FormSubmitter().submitForm()">
+  </form> 
+</body>
+</html>
