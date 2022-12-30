@@ -1,7 +1,7 @@
 # Project Title
 
-* **Objective** - To create a product...
-* **Purpose** - To gain familiarity the following features...
+* **Objective** - To create a product which can read and write to files on your local machine
+* **Purpose** - To gain familiarity with NodeJS
 
 
 
