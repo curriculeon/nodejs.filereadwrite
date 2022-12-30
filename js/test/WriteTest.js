@@ -1,7 +1,7 @@
 const assert = require('assert');
 const FileReadWrite = require('./FileReadWrite');
 
-class WriteTest {
+export class WriteTest {
     constructor() { }
     
     test() {

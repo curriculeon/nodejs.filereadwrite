@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-class FileReadWrite {
+export class FileReadWrite {
     constructor(filePath) {
         this.filePath =filePath;
     }
@@ -10,7 +10,6 @@ class FileReadWrite {
     }
 
     read() {
-        const fs = require('fs');
         return fs.readFileSync(this.filePath, 'utf8');
     }
 

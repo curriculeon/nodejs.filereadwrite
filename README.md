@@ -18,7 +18,7 @@
 Your FileReadWrite class should have the following methods:
 
 ```js
-class FileReadWrite {
+export class FileReadWrite {
     constructor(filePath) {
         this.filePath = filePath;
     }

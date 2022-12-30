@@ -1,4 +1,4 @@
-class FileReadWriteTestRunner {
+export class FileReadWriteTestRunner {
     runTests() {
         let writeTest = new WriteTest();
         writeTest.runTests();

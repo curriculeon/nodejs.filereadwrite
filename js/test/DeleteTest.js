@@ -1,4 +1,4 @@
-class DeleteTest {
+export class DeleteTest {
     constructor() { }
 
     test() {

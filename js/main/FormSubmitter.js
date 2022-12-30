@@ -1,4 +1,4 @@
-class FormSubmitter {
+export class FormSubmitter {
   submitForm() {
     // Get the file path from the text input element
     const filePath = document.getElementById('file-path').value;
